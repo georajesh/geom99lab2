@@ -72,3 +72,207 @@
     "contentOrigin": "self",
     "lastViewed": 1706940000000
 }
+{
+    "operationalLayers": [
+        {
+            "id": "18d6d863ebf-layer-2",
+            "title": "Tribhuvan International Airport",
+            "layers": [
+                {
+                    "id": "18d6d863fb0-layer-4",
+                    "title": "Tribhuvan International Airport polygons",
+                    "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Tribhuvan_International_Airport/FeatureServer/0",
+                    "itemId": "4eb7ea22e32b456891bfc4ffc37da4a7",
+                    "layerType": "ArcGISFeatureLayer",
+                    "popupInfo": {
+                        "popupElements": [
+                            {
+                                "type": "fields"
+                            },
+                            {
+                                "type": "attachments",
+                                "displayType": "auto"
+                            }
+                        ],
+                        "showAttachments": true,
+                        "fieldInfos": [
+                            {
+                                "fieldName": "ObjectId",
+                                "isEditable": false,
+                                "label": "",
+                                "visible": false
+                            },
+                            {
+                                "fieldName": "geometry",
+                                "isEditable": true,
+                                "label": "geometry",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "properties",
+                                "isEditable": true,
+                                "label": "properties",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "Shape__Area",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 2
+                                },
+                                "isEditable": false,
+                                "label": "Shape__Area",
+                                "visible": false
+                            },
+                            {
+                                "fieldName": "Shape__Length",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 2
+                                },
+                                "isEditable": false,
+                                "label": "Shape__Length",
+                                "visible": false
+                            },
+                            {
+                                "fieldName": "type",
+                                "isEditable": true,
+                                "label": "type",
+                                "visible": true
+                            }
+                        ],
+                        "title": "Tribhuvan International Airport polygons"
+                    },
+                    "layerDefinition": {
+                        "drawingInfo": {
+                            "renderer": {
+                                "type": "simple",
+                                "symbol": {
+                                    "type": "esriSFS",
+                                    "color": [
+                                        0,
+                                        0,
+                                        0,
+                                        140
+                                    ],
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            0,
+                                            0,
+                                            0,
+                                            255
+                                        ],
+                                        "width": 0.75,
+                                        "style": "esriSLSSolid"
+                                    },
+                                    "style": "esriSFSSolid"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "18d6d863faf-layer-3",
+                    "title": "Tribhuvan International Airport points",
+                    "url": "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Tribhuvan_International_Airport/FeatureServer/1",
+                    "itemId": "4eb7ea22e32b456891bfc4ffc37da4a7",
+                    "layerType": "ArcGISFeatureLayer",
+                    "popupInfo": {
+                        "popupElements": [
+                            {
+                                "type": "fields"
+                            },
+                            {
+                                "type": "attachments",
+                                "displayType": "auto"
+                            }
+                        ],
+                        "showAttachments": true,
+                        "fieldInfos": [
+                            {
+                                "fieldName": "ObjectId",
+                                "isEditable": false,
+                                "label": "",
+                                "visible": false
+                            },
+                            {
+                                "fieldName": "geometry",
+                                "isEditable": true,
+                                "label": "geometry",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "properties",
+                                "isEditable": true,
+                                "label": "properties",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "type",
+                                "isEditable": true,
+                                "label": "type",
+                                "visible": true
+                            }
+                        ],
+                        "title": "Tribhuvan International Airport points"
+                    },
+                    "layerDefinition": {
+                        "drawingInfo": {
+                            "renderer": {
+                                "type": "simple",
+                                "symbol": {
+                                    "type": "esriPMS",
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "contentType": "image/png",
+                                    "imageData": "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",
+                                    "url": "https://static.arcgis.com/images/Symbols/Government/Airports.png",
+                                    "height": 13.5,
+                                    "width": 13.5
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "layerType": "GroupLayer"
+        }
+    ],
+    "baseMap": {
+        "baseMapLayers": [
+            {
+                "id": "VectorTile_3287",
+                "opacity": 1,
+                "title": "OpenStreetMap",
+                "visibility": true,
+                "layerType": "VectorTileLayer",
+                "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/0df19d2d940b47658857cc2fc9623840/resources/styles/root.json"
+            }
+        ],
+        "title": "OpenStreetMap"
+    },
+    "authoringApp": "ArcGISMapViewer",
+    "authoringAppVersion": "2023.2",
+    "initialState": {
+        "viewpoint": {
+            "targetGeometry": {
+                "spatialReference": {
+                    "latestWkid": 3857,
+                    "wkid": 102100
+                },
+                "xmin": 9496676.011332307,
+                "ymin": 3207792.6063077464,
+                "xmax": 9507482.29620611,
+                "ymax": 3213898.0139420168
+            }
+        }
+    },
+    "spatialReference": {
+        "latestWkid": 3857,
+        "wkid": 102100
+    },
+    "timeZone": "system",
+    "version": "2.29"
+}
