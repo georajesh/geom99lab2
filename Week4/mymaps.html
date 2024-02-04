@@ -21,13 +21,13 @@
         require(["esri/config", "esri/Map", "esri/views/MapView"], function(esriConfig, Map, MapView) {
             esriConfig.apiKey = "AAPK4f97abab6730410da8f2218ed24cbb28SAhheMvbvBJM7cNHYp1SPe08ov_vSA6yRRZlBGYiHtsCgPUWGNBvS_Mf32w9uAtT";
             const map = new Map({
-                basemap: "arcgis/navigation" // Basemap layer service
+                basemap: "arcgis-navigation" // Basemap layer service
             });
 
             const view = new MapView({
                 map: map,
                 center: [44.34118023644637, -78.74128670367992], // Longitude, latitude
-                zoom: 4, // Zoom level
+                zoom: 2, // Zoom level
                 container: "myMap" // Div element
             });
         })
