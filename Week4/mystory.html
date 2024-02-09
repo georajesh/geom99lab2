@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+
+    <title>Legend widget card style | Sample | ArcGIS Maps SDK for JavaScript 4.28</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css" />
+
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .header{
+        position: absolute;
+        z-index: 1;
+        left:25%;
+        bottom: 15px; 
+
+      }
+      .header h1, h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(121, 3, 3);
+        text-align: center;
+      }
+    </style>
+
+    <script src="https://js.arcgis.com/4.28/"></script>
+
+    <script>
+      require(["esri/views/MapView", "esri/widgets/Legend", "esri/widgets/Expand", "esri/WebMap"],
+      (
+        MapView,
+        Legend,
+        Expand,
+        WebMap
+      ) => {
+        const webmap = new WebMap({
+          portalItem: {
+            // autocasts as new PortalItem()
+            id: "ef3a4ddabf0b46dd9e99cf49c57663df"
+          }
+        });
+
+        const view = new MapView({
+          container: "viewDiv",
+          map: webmap
+        });
+
+        // add a legend widget instance to the view
+        // and set the style to 'card'. This is a
+        // responsive style, which is good for mobile devices
+
+        const legend = new Expand({
+          content: new Legend({
+            view: view,
+            style: "card" // other styles include 'classic'
+          }),
+          view: view,
+          expanded: true
+        });
+        view.ui.add(legend, "bottom-left");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Water Supply Pipes Burst Risk Assessment</h1>
+      <h2>New Vancouver City, BC, Canada</h2>
+    </div>
+    <div id="viewDiv"></div>  
+  </body>
+</html>
